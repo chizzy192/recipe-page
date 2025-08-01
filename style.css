@@ -12,7 +12,7 @@
     padding: 0;
     box-sizing: border-box;
     color: hsl(24, 5%, 18%);
-    font-size: 16px;
+    /* font-size: 16px; */
 }
 
 body {
@@ -28,7 +28,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: clamp(27rem, 55vw, 60rem);
+    width: clamp(27rem, 56vw, 62rem);
     height: auto;
     margin: 4rem auto;
     border-radius: 1.5rem;
@@ -36,7 +36,7 @@ main {
 }
 
 header img{
-    width: clamp(27rem, 49vw, 54rem);
+    width: clamp(27rem, 50vw, 56rem);
     height: auto;
     border-radius: 1.2rem;
 }
@@ -74,7 +74,7 @@ section p, .nutrution p, li, .subject {
 }
 
 section p, .nutrution p, li, .subject, .sub-heading {
-    font-size: clamp(1.15rem, 2vw, 1rem);
+    font-size: 1.1em;
     color: hsl(30, 10%, 34%);
 }
 
@@ -160,4 +160,8 @@ hr {
         padding: 0;
         margin: 0 auto;
     }
+    section p, .nutrution p, li, .subject, .sub-heading {
+    font-size: 1.14em;
+}
+
 }
