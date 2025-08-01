@@ -28,7 +28,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: clamp(27rem, 56vw, 62rem);
+    width: clamp(27rem, 55vw, 60rem);
     height: auto;
     margin: 4rem auto;
     border-radius: 1.5rem;
@@ -36,7 +36,7 @@ main {
 }
 
 header img{
-    width: clamp(27rem, 50vw, 56rem);
+    width: clamp(27rem, 49vw, 55rem);
     height: auto;
     border-radius: 1.2rem;
 }
