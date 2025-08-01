@@ -28,7 +28,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: clamp(27rem, 55vw, 60rem);
+    width: clamp(27rem, 56vw, 62rem);
     height: auto;
     margin: 4rem auto;
     border-radius: 1.5rem;
@@ -36,7 +36,7 @@ main {
 }
 
 header img{
-    width: clamp(27rem, 49vw, 55rem);
+    width: clamp(27rem, 50vw, 56rem);
     height: auto;
     border-radius: 1.2rem;
 }
@@ -45,7 +45,7 @@ section {
     font-family: "Outfit", sans-serif;
     width: clamp(22.5rem, 49vw, 54rem);
     font-weight: 400;
-    margin: clamp(2.3rem, 3vw, 3rem) clamp(2rem, 1.5vw, 2rem) ;
+    margin: clamp(2.3rem, 3vw, 3rem) clamp(2rem, 1.5vw, 4rem) ;
 }
 
 .sec:nth-child(2) {
@@ -85,7 +85,7 @@ section p, .nutrution p, li, .subject, .sub-heading {
 }
 
 li {
-    padding: 0.8rem 0.8rem 0;
+    padding: 0.8rem 0 0 0.8rem;
 }
 
 .prep ul{
@@ -113,11 +113,11 @@ hr {
 }
 
 .ingred ul {
-    padding: 0 clamp(2rem, 1.5vw, 2rem);
+    padding: 0 2rem;
 }
 
 .instruct ol {
-    padding: 0 0 0 clamp(2rem, 1.5vw, 2rem) ;
+    padding: 0 0 0 1.6rem;
 }
 
 .ingred li::marker , .instruct li::marker, .numb, .sub {
