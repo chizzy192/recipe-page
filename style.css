@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "Young Serif";
+    src: url("/assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Outfit";
+    src: url("/assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: hsl(24, 5%, 18%);
+    font-size: 16px;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    text-align: start;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: clamp(27rem, 55vw, 60rem);
+    height: auto;
+    margin: 4rem auto;
+    border-radius: 1.5rem;
+    padding-top: clamp(1rem, 3vw, 3rem);
+}
+
+header img{
+    width: clamp(27rem, 49vw, 54rem);
+    height: auto;
+    border-radius: 1.2rem;
+}
+
+section {
+    font-family: "Outfit", sans-serif;
+    width: clamp(22.5rem, 49vw, 54rem);
+    font-weight: 400;
+    margin: clamp(2.3rem, 3vw, 3rem) clamp(2rem, 1.5vw, 2rem) ;
+}
+
+.sec:nth-child(2) {
+    margin: clamp(2.3rem, 3vw, 3rem) clamp(2rem, 1.5vw, 2rem) 0;
+}
+
+.sec:nth-child(3) {
+    margin: clamp(2.3rem, 3vw, 3rem) clamp(2rem, 1.5vw, 2rem) 0;
+}
+
+.heading {
+    font-family: "Young Serif", serif;
+}
+
+section h1 {
+    font-size: 2.5rem;
+    padding: 0;
+    margin: 0;
+    line-height: 100%;
+    font-weight: 100;
+}
+
+section p, .nutrution p, li, .subject {
+    line-height: 1.7rem;
+    padding: 1rem 0 0;
+}
+
+section p, .nutrution p, li, .subject, .sub-heading {
+    font-size: 1.15rem;
+    color: hsl(30, 10%, 34%);
+}
+
+.prep {
+    background-color: hsl(330, 100%, 98%);
+    padding: clamp(1.5rem, 2vw, 2rem);
+    border-radius: 1.2rem;   
+}
+
+li {
+    padding: 0.8rem 0.8rem 0;
+}
+
+.prep ul{
+    margin: 0 clamp(1rem, 1.5vw, 1.5rem);
+    padding: 0 clamp(1rem, 1.5vw, 1.5rem);
+}
+
+.sub-heading {
+    font-weight: bold;
+}
+
+.prep h2 {
+    font-size: 1.3rem;
+}
+
+.prep h2, .prep li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+hr {
+    display: flex;
+    flex-direction: row;
+    width: clamp(22.5rem, 49vw, 54rem);
+    border: 1px solid hsl(30, 18%, 87%);
+}
+
+.ingred ul {
+    padding: 0 clamp(2rem, 1.5vw, 2rem);
+}
+
+.instruct ol {
+    padding: 0 0 0 clamp(2rem, 1.5vw, 2rem) ;
+}
+
+.ingred li::marker , .instruct li::marker, .numb, .sub {
+    color:hsl(14, 45%, 36%);  
+}
+
+.ingred li::marker , .instruct li::marker, .numb {
+    font-weight: bold;
+}
+
+.sub {
+    font-size: 2rem;
+    line-height: 100%;
+    font-weight: 100;
+}
+
+.numb {
+    font-weight: 700;
+    width: 50%;
+    padding: 1rem 0 0 2rem;
+    font-size: clamp(1.15rem, 3vw, 1.3rem);
+}
+
+.subject {
+    width: 50%;
+    padding-left: 2.5rem;
+}
+.table-col {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0.8rem;
+}
+
+@media screen and (max-width: 50rem) {
+    header img {
+        border-radius: 0;
+    }
+    main {
+        border-radius: 0;
+        padding: 0;
+        margin: 0 auto;
+    }
+}
